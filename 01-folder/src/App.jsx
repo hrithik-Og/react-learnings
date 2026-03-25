@@ -1,7 +1,17 @@
 import React from 'react'
+import Cards from './components/cards.jsx'
+import Navbar from './components/navbar.jsx'
 
-export const App = () => {
+const App = () => {
   return (
-    <div>App</div>
+    <>
+      <Navbar/>
+      <h1>hello</h1>
+      <Cards/>
+      <Cards/>
+    </>
   )
 }
+
+      <navbar/>
+export default App;
